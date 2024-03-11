@@ -16,7 +16,7 @@ public class Cylinder extends Shape{
 		
 		//Formula for surface area of cylinder:
 		//2PIr^2 + 2PIrh
-		return radius * radius * Math.PI + 2 * Math.PI * radius * height;
+		return 2.0 * radius * radius * Math.PI + 2.0 * Math.PI * radius * height;
 	}
 	
 	public double volume() {

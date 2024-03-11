@@ -23,7 +23,7 @@ public class Cone extends Shape{
 	// PI * r^2 * h/3
 	public double volume() {
 		
-		return Math.PI * radius * radius * height / 3;
+		return Math.PI * radius * radius * height / 3.0;
 	}
 	
 	public String toString() {
